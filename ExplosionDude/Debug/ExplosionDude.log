@@ -1,0 +1,94 @@
+﻿Build started 04/06/2013 06:54:15 PM.
+Project "C:\Users\Aldo\Desktop\Sandboxes\ExplosionDude\ExplosionDude\ExplosionDude.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "Debug\ExplosionDude.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AABB2D.cpp AudioManager.cpp Bomb.cpp BombManager.cpp Button.cpp ButtonManager.cpp DPad.cpp EventHandler.cpp EventPoller.cpp Explosion.cpp ExplosionManager.cpp Game.cpp Image.cpp LoadState.cpp Main.cpp MenuState.cpp PlayState.cpp Player.cpp ScoreManager.cpp Screen.cpp Sprite.cpp SpriteSheet.cpp TTFont.cpp TextButton.cpp TileFunctions.cpp Timer.cpp Wall.cpp WallManager.cpp
+  WallManager.cpp
+  Wall.cpp
+  Timer.cpp
+  TileFunctions.cpp
+  TextButton.cpp
+c:\users\aldo\desktop\sandboxes\explosiondude\explosiondude\textbutton.cpp(22): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\aldo\desktop\sandboxes\explosiondude\explosiondude\textbutton.cpp(22): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+  TTFont.cpp
+  SpriteSheet.cpp
+  Sprite.cpp
+  Screen.cpp
+  ScoreManager.cpp
+c:\users\aldo\desktop\sandboxes\explosiondude\explosiondude\scoremanager.cpp(38): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\aldo\desktop\sandboxes\explosiondude\explosiondude\scoremanager.cpp(38): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+c:\users\aldo\desktop\sandboxes\explosiondude\explosiondude\scoremanager.cpp(83): warning C4018: '<' : signed/unsigned mismatch
+  Player.cpp
+  PlayState.cpp
+  MenuState.cpp
+  Main.cpp
+  LoadState.cpp
+  Image.cpp
+  Game.cpp
+  ExplosionManager.cpp
+  Explosion.cpp
+  EventPoller.cpp
+  Generating Code...
+  Compiling...
+  EventHandler.cpp
+  DPad.cpp
+c:\users\aldo\desktop\sandboxes\explosiondude\explosiondude\dpad.cpp(22): warning C4018: '<' : signed/unsigned mismatch
+  ButtonManager.cpp
+  Button.cpp
+  BombManager.cpp
+  Bomb.cpp
+  AudioManager.cpp
+  AABB2D.cpp
+  Generating Code...
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ExplosionDude.exe.embed.manifest.res" Debug\ExplosionDude_manifest.rc 
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Aldo\Desktop\Sandboxes\ExplosionDude\Debug\ExplosionDude.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ExplosionDude.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Aldo\Desktop\Sandboxes\ExplosionDude\Debug\ExplosionDude.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Aldo\Desktop\Sandboxes\ExplosionDude\Debug\ExplosionDude.lib" /MACHINE:X86 Debug\ExplosionDude.exe.embed.manifest.res
+  Debug\AABB2D.obj
+  Debug\AudioManager.obj
+  Debug\Bomb.obj
+  Debug\BombManager.obj
+  Debug\Button.obj
+  Debug\ButtonManager.obj
+  Debug\DPad.obj
+  Debug\EventHandler.obj
+  Debug\EventPoller.obj
+  Debug\Explosion.obj
+  Debug\ExplosionManager.obj
+  Debug\Game.obj
+  Debug\Image.obj
+  Debug\LoadState.obj
+  Debug\Main.obj
+  Debug\MenuState.obj
+  Debug\Player.obj
+  Debug\PlayState.obj
+  Debug\ScoreManager.obj
+  Debug\Screen.obj
+  Debug\Sprite.obj
+  Debug\SpriteSheet.obj
+  Debug\TextButton.obj
+  Debug\TileFunctions.obj
+  Debug\Timer.obj
+  Debug\TTFont.obj
+  Debug\Wall.obj
+  Debug\WallManager.obj
+  ..\..\..\..\..\..\SDL\lib\SDL.lib
+  ..\..\..\..\..\..\SDL\lib\SDLmain.lib
+  ..\..\..\..\..\..\SDL\lib\SDL_image.lib
+  ..\..\..\..\..\..\SDL\lib\SDL_mixer.lib
+  ..\..\..\..\..\..\SDL\lib\SDL_ttf.lib
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ExplosionDude.exe.embed.manifest" /manifest Debug\ExplosionDude.exe.intermediate.manifest
+  All outputs are up-to-date.
+LinkEmbedManifest:
+  All outputs are up-to-date.
+  ExplosionDude.vcxproj -> C:\Users\Aldo\Desktop\Sandboxes\ExplosionDude\Debug\ExplosionDude.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\ExplosionDude.unsuccessfulbuild".
+  Touching "Debug\ExplosionDude.lastbuildstate".
+Done Building Project "C:\Users\Aldo\Desktop\Sandboxes\ExplosionDude\ExplosionDude\ExplosionDude.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.91

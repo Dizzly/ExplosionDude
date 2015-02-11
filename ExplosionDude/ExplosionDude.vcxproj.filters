@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Reusables">
+      <UniqueIdentifier>{b347246c-0835-4374-9156-7a8839a1e734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables">
+      <UniqueIdentifier>{68add3cc-5efc-4c00-9b20-03ec5858122e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables\Sprites">
+      <UniqueIdentifier>{c83dc09d-aa0e-4b29-87f4-deda115c1a28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables\InputMamagement">
+      <UniqueIdentifier>{32467d4e-2a07-4285-abc5-13326c6cb1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables\AssetManagament">
+      <UniqueIdentifier>{ad30a4ed-aca9-486b-8e8f-b2304a4be076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables\Basic Shapes">
+      <UniqueIdentifier>{0f7dc1e1-e37d-43b3-bd0d-2c319d57bc00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables\GameStructure">
+      <UniqueIdentifier>{574c3825-f64e-405c-b68b-cad33a5ef8e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reusables\Singleton">
+      <UniqueIdentifier>{7c4a40b6-e119-4fbd-a8e6-e2c58d9c9cd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reusables\AssetMangement">
+      <UniqueIdentifier>{fb64e3fe-3037-4950-883a-be870ce899c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reusables\InputManagement">
+      <UniqueIdentifier>{62b6f2b3-ddbf-4836-992e-e41ebd529469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reusables\Basic Shapes">
+      <UniqueIdentifier>{85f326dd-7f2d-4a5e-9a63-1b254d7b65a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reusables\GamesStructure">
+      <UniqueIdentifier>{67136a64-8aa3-4b8f-b6fc-b6f57d455a73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Reusables\Sprites">
+      <UniqueIdentifier>{40cbf3e4-c244-4e36-8f8e-5a4feb3c88bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Specific">
+      <UniqueIdentifier>{b33b2f16-cb1c-4ca3-865a-18187c9eceff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific">
+      <UniqueIdentifier>{ef19acad-7b16-46ed-8f06-088c095b79f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Specific\Managers">
+      <UniqueIdentifier>{d191bc79-171f-46b1-97b0-a69e3bee7b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Specific\States">
+      <UniqueIdentifier>{d99678f2-fe3d-44e3-bc67-f6546b7ff4ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific\Managers">
+      <UniqueIdentifier>{04bf8678-b97d-40ca-826c-153404e9acd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific\States">
+      <UniqueIdentifier>{1db6d1da-23af-4805-ac86-fd459a353da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Specific\Objects">
+      <UniqueIdentifier>{fea07883-0ea5-448e-bf1f-e7ade788d763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific\Objects">
+      <UniqueIdentifier>{6a1ea4db-2698-4f46-b33e-6d24678d9e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Specific\UI">
+      <UniqueIdentifier>{16b2f133-816c-42cb-9777-e0647b9e38b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific\UI">
+      <UniqueIdentifier>{b5ff0f1f-750b-43e4-a665-b5672698ae17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Reusables</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\Reusables\AssetManagament</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files\Reusables\AssetManagament</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Header Files\Reusables\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\Reusables\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Reusables\InputMamagement</Filter>
+    </ClInclude>
+    <ClInclude Include="EventPoller.h">
+      <Filter>Header Files\Reusables\InputMamagement</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB2D.h">
+      <Filter>Header Files\Reusables\Basic Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Reusables\GameStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Reusables\GameStructure</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCopyable.h">
+      <Filter>Header Files\Reusables\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Reusables\Singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFont.h">
+      <Filter>Header Files\Reusables</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2.h">
+      <Filter>Header Files\Reusables\Basic Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="TileFunctions.h">
+      <Filter>Header Files\Game Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Reusables</Filter>
+    </ClInclude>
+    <ClInclude Include="BombManager.h">
+      <Filter>Header Files\Game Specific\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplosionManager.h">
+      <Filter>Header Files\Game Specific\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadState.h">
+      <Filter>Header Files\Game Specific\States</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuState.h">
+      <Filter>Header Files\Game Specific\States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\Game Specific\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Header Files\Game Specific\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Header Files\Game Specific\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game Specific\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="WallManager.h">
+      <Filter>Header Files\Game Specific\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Game Specific\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Game Specific\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonManager.h">
+      <Filter>Header Files\Game Specific\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DPad.h">
+      <Filter>Header Files\Game Specific\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextButton.h">
+      <Filter>Header Files\Game Specific\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Header Files\Game Specific\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Reusables</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Reusables</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\Reusables\AssetMangement</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files\Reusables\AssetMangement</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler.cpp">
+      <Filter>Source Files\Reusables\InputManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="EventPoller.cpp">
+      <Filter>Source Files\Reusables\InputManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB2D.cpp">
+      <Filter>Source Files\Reusables\Basic Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Reusables\GamesStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Reusables\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Source Files\Reusables\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFont.cpp">
+      <Filter>Source Files\Reusables</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="TileFunctions.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="BombManager.cpp">
+      <Filter>Source Files\Game Specific\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplosionManager.cpp">
+      <Filter>Source Files\Game Specific\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadState.cpp">
+      <Filter>Source Files\Game Specific\States</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuState.cpp">
+      <Filter>Source Files\Game Specific\States</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\Game Specific\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Source Files\Game Specific\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Source Files\Game Specific\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Specific\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="WallManager.cpp">
+      <Filter>Source Files\Game Specific\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>Source Files\Game Specific\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Game Specific\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonManager.cpp">
+      <Filter>Source Files\Game Specific\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DPad.cpp">
+      <Filter>Source Files\Game Specific\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextButton.cpp">
+      <Filter>Source Files\Game Specific\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files\Game Specific\Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
